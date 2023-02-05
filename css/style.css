@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+header{
+  
+  position: fixed;
+  width: 100%;
+  
+}
+
+#n1{
+  background-color: #ceddf3;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  
+}
+
+#n1 p{
+  font-family: Arial;
+  font-size: 20pt;
+}
+
+#n2{
+  display: flex;
+  padding: 10px;
+  background-image: linear-gradient(to top left, #e2e8f1, #89a9ca);
+  
+}
+
+#n2 div{
+  margin-left: 15px;
+}
+
+.link_back{
+  color: #1286fc;
+  font-family: Arial;
+  font-size: 40pt;
+  margin-left: 15px;
+}
+
+.chat_name{
+  font-family: Arial;
+  font-size: 20pt;
+  margin-left: 15px;
+}
+
+.chat_mambers{
+  font-family: Arial;
+  font-size: 17pt;
+  margin-left: 15px;
+  color: #939597;
+}
+
+#n3{
+  background-image: url(images/chat_background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  
+  
+}
+
+#n31{
+  
+  background-image: url(images/fon.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  
+  
+}
+
+#n32{
+  background-color: #aae5f1;
+  background-image: url(images/harry.png);
+  background-position: center 190px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  
+  
+}
+
+.inform{
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #656f79;
+  background-color: #ceddf3;
+  font-family: Arial;
+  font-size: 16pt;
+  
+}
+
+.chat{
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  background-color: #f0f4f7;
+  font-family: Arial;
+  font-size: 18pt;
+  align-self: flex-start;
+}
+
+.my_chat{
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  background-color: #d1fae7;
+  font-family: Arial;
+  font-size: 18pt;
+  align-self: flex-end;
+}
+
+.chat_time{
+  font-family: Arial;
+  font-size: 14pt;
+  color: #ceddf3;
+  text-align: right;
+}
